@@ -1,0 +1,6 @@
+E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Domain\bin\Debug\IS.Knihovna.Domain.dll
+E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Domain\bin\Debug\IS.Knihovna.Domain.pdb
+E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Domain\obj\Debug\IS.Knihovna.Domain.csproj.AssemblyReference.cache
+E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Domain\obj\Debug\IS.Knihovna.Domain.csproj.CoreCompileInputs.cache
+E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Domain\obj\Debug\IS.Knihovna.Domain.dll
+E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Domain\obj\Debug\IS.Knihovna.Domain.pdb
