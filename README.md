@@ -3,7 +3,7 @@
 # IS Knihovna
 
 Ročníkový projekt – informační systém veřejné knihovny.  
-Desktopová aplikace postavená na **.NET Framework 4.8 (WinForms)** s použitím **Entity Framework 6** a databáze **SQL Server Express LocalDB**.  
+Desktopová aplikace postavená na **.NET Framework (WinForms)** s použitím **Entity Framework 6** a databáze **SQL Server Express LocalDB**.  
 
 ## Funkce (plánované)
 - Evidence knih (titul, autor, žánr, vydavatel, rok, nosič, obsah).
