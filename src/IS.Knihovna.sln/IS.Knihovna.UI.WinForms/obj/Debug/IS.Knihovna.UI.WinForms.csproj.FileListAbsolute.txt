@@ -10,3 +10,17 @@ E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\ob
 E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Kniho.DA9DCECC.Up2Date
 E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.exe
 E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\bin\Debug\IS.Knihovna.UI.WinForms.exe.config
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\bin\Debug\IS.Knihovna.UI.WinForms.exe
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\bin\Debug\IS.Knihovna.UI.WinForms.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\bin\Debug\IS.Knihovna.Services.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\bin\Debug\IS.Knihovna.Services.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.csproj.AssemblyReference.cache
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.Properties.Resources.resources
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.csproj.GenerateResource.cache
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.csproj.CoreCompileInputs.cache
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Kniho.DA9DCECC.Up2Date
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.exe
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.LoginForm.resources
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.MainForm.resources

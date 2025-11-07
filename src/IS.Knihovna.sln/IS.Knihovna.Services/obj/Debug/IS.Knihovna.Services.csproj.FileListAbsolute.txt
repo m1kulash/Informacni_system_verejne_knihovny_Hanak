@@ -12,3 +12,17 @@ E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Services\bin\D
 E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\IS.Knihovna.Domain.dll
 E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\EntityFramework.xml
 E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\IS.Knihovna.Domain.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\IS.Knihovna.Services.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\IS.Knihovna.Services.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\IS.Knihovna.Data.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\EntityFramework.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\IS.Knihovna.Domain.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\IS.Knihovna.Data.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\IS.Knihovna.Data.dll.config
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\EntityFramework.xml
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\bin\Debug\IS.Knihovna.Domain.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\obj\Debug\IS.Knihovna.Services.csproj.AssemblyReference.cache
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\obj\Debug\IS.Knihovna.Services.csproj.CoreCompileInputs.cache
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\obj\Debug\IS.Kniho.CCC3D007.Up2Date
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\obj\Debug\IS.Knihovna.Services.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Services\obj\Debug\IS.Knihovna.Services.pdb

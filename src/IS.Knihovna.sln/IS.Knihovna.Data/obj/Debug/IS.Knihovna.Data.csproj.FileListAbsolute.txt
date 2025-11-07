@@ -14,3 +14,19 @@ E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug
 E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Knihovna.Data.pdb
 E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Knihovna.Data.Migrations.InitialCreate.resources
 E:\Informacni system verejne knihovny\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Knihovna.Data.csproj.GenerateResource.cache
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\bin\Debug\IS.Knihovna.Data.dll.config
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\bin\Debug\IS.Knihovna.Data.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\bin\Debug\IS.Knihovna.Data.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\bin\Debug\EntityFramework.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\bin\Debug\IS.Knihovna.Domain.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\bin\Debug\IS.Knihovna.Domain.pdb
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\bin\Debug\EntityFramework.xml
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Knihovna.Data.csproj.AssemblyReference.cache
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Knihovna.Data.Migrations.InitialCreate.resources
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Knihovna.Data.csproj.GenerateResource.cache
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Knihovna.Data.csproj.CoreCompileInputs.cache
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Kniho.4A631949.Up2Date
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Knihovna.Data.dll
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.Data\obj\Debug\IS.Knihovna.Data.pdb
