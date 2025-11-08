@@ -68,8 +68,6 @@ namespace IS.Knihovna.UI.WinForms
         private void btnOdhlasit_Click(object sender, EventArgs e)
         {
             // Vrátí uživatele na LoginForm
-            LoginForm login = new LoginForm();
-            login.Show();
             this.Close();
         }
     }
