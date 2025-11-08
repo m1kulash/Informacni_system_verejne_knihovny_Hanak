@@ -72,6 +72,12 @@
     <Compile Include="RezervaceForm.Designer.cs">
       <DependentUpon>RezervaceForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="StatistikyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatistikyForm.Designer.cs">
+      <DependentUpon>StatistikyForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TitulForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,7 +110,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TitulForm.resx">
+      <DependentUpon>TitulForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -123,6 +133,27 @@
       <Project>{20d0579f-a206-48b4-85eb-a3e03cffbb02}</Project>
       <Name>IS.Knihovna.Services</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrowing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
