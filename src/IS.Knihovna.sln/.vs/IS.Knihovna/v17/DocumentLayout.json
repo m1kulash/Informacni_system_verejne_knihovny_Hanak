@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|e:\\informacni_system_verejne_knihovny_hanak\\src\\is.knihovna.sln\\is.knihovna.ui.winforms\\titulform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\titulform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\rezervaceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\rezervaceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\ctenarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\ctenarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|e:\\informacni_system_verejne_knihovny_hanak\\src\\is.knihovna.sln\\is.knihovna.ui.winforms\\titulform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\titulform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\statistikyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\statistikyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A31ABB03-8F11-4D77-A998-1B4B1DDA9013}|IS.Knihovna.Data\\IS.Knihovna.Data.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.data\\migrations\\202511051744523_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A31ABB03-8F11-4D77-A998-1B4B1DDA9013}|IS.Knihovna.Data\\IS.Knihovna.Data.csproj|solutionrelative:is.knihovna.data\\migrations\\202511051744523_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/KNIHOVNA_5f19a283b82740ddb90ef60b03b976b4/True/SqlTable/dbo.Ctenars.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -66,10 +74,6 @@
       "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\upominkyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\rezervaceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\rezervaceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\is.knihovna.ui.winforms\\vypujckyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7E4E28E3-4F1E-4987-8741-B31368C0ABCD}|IS.Knihovna.UI.WinForms\\IS.Knihovna.UI.WinForms.csproj|solutionrelative:is.knihovna.ui.winforms\\vypujckyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -85,23 +89,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainForm.cs",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\MainForm.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\MainForm.cs",
               "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\MainForm.cs",
               "RelativeToolTip": "IS.Knihovna.UI.WinForms\\MainForm.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wCEAAAAMAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T22:05:29.255Z"
+              "WhenOpened": "2025-11-07T22:05:29.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [N\u00E1vrh]",
+              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\MainForm.cs",
+              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\MainForm.cs [N\u00E1vrh]",
+              "RelativeToolTip": "IS.Knihovna.UI.WinForms\\MainForm.cs [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:22:16.054Z",
+              "EditorCaption": " [N\u00E1vrh]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TitulForm.cs",
+              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\TitulForm.cs",
+              "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\TitulForm.cs",
+              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\TitulForm.cs",
+              "RelativeToolTip": "IS.Knihovna.UI.WinForms\\TitulForm.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvyoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T12:29:18.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "App.config",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\App.config",
               "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\App.config",
@@ -114,65 +144,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "KnihovnaContext.cs",
-              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\KnihovnaContext.cs",
-              "RelativeDocumentMoniker": "IS.Knihovna.Data\\KnihovnaContext.cs",
-              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\KnihovnaContext.cs",
-              "RelativeToolTip": "IS.Knihovna.Data\\KnihovnaContext.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAADwvxwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:54:52.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Modely.cs",
-              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Domain\\Entities\\Modely.cs",
-              "RelativeDocumentMoniker": "IS.Knihovna.Domain\\Entities\\Modely.cs",
-              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Domain\\Entities\\Modely.cs",
-              "RelativeToolTip": "IS.Knihovna.Domain\\Entities\\Modely.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:48:20.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.config",
-              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\App.config",
-              "RelativeDocumentMoniker": "IS.Knihovna.Data\\App.config",
-              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\App.config",
-              "RelativeToolTip": "IS.Knihovna.Data\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-05T16:41:40.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainForm.cs [N\u00E1vrh]",
-              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\MainForm.cs",
-              "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\MainForm.cs",
-              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\MainForm.cs [N\u00E1vrh]",
-              "RelativeToolTip": "IS.Knihovna.UI.WinForms\\MainForm.cs [N\u00E1vrh]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:22:16.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CtenarForm.cs [N\u00E1vrh]",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\CtenarForm.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\CtenarForm.cs",
               "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\CtenarForm.cs [N\u00E1vrh]",
               "RelativeToolTip": "IS.Knihovna.UI.WinForms\\CtenarForm.cs [N\u00E1vrh]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:22:49.616Z"
+              "WhenOpened": "2025-11-05T16:22:49.616Z",
+              "EditorCaption": " [N\u00E1vrh]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TitulForm.cs [N\u00E1vrh]",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\TitulForm.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\TitulForm.cs",
@@ -184,7 +168,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs [N\u00E1vrh]",
+              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\LoginForm.cs",
+              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\LoginForm.cs [N\u00E1vrh]",
+              "RelativeToolTip": "IS.Knihovna.UI.WinForms\\LoginForm.cs [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T21:51:18.844Z",
+              "EditorCaption": " [N\u00E1vrh]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RezervaceForm.cs [N\u00E1vrh]",
+              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\RezervaceForm.cs",
+              "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\RezervaceForm.cs",
+              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\RezervaceForm.cs [N\u00E1vrh]",
+              "RelativeToolTip": "IS.Knihovna.UI.WinForms\\RezervaceForm.cs [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:23:32.03Z",
+              "EditorCaption": " [N\u00E1vrh]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\App.config",
+              "RelativeDocumentMoniker": "IS.Knihovna.Data\\App.config",
+              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\App.config",
+              "RelativeToolTip": "IS.Knihovna.Data\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-05T16:41:40.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Modely.cs",
+              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Domain\\Entities\\Modely.cs",
+              "RelativeDocumentMoniker": "IS.Knihovna.Domain\\Entities\\Modely.cs",
+              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Domain\\Entities\\Modely.cs",
+              "RelativeToolTip": "IS.Knihovna.Domain\\Entities\\Modely.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:48:20.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KnihovnaContext.cs",
+              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\KnihovnaContext.cs",
+              "RelativeDocumentMoniker": "IS.Knihovna.Data\\KnihovnaContext.cs",
+              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\KnihovnaContext.cs",
+              "RelativeToolTip": "IS.Knihovna.Data\\KnihovnaContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwvxwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:54:52.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "202511051744523_InitialCreate.cs",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\Migrations\\202511051744523_InitialCreate.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.Data\\Migrations\\202511051744523_InitialCreate.cs",
@@ -196,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "StatistikyForm.cs [N\u00E1vrh]",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\StatistikyForm.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\StatistikyForm.cs",
@@ -207,18 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginForm.cs [N\u00E1vrh]",
-              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\LoginForm.cs",
-              "ToolTip": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\LoginForm.cs [N\u00E1vrh]",
-              "RelativeToolTip": "IS.Knihovna.UI.WinForms\\LoginForm.cs [N\u00E1vrh]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T21:51:18.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Configuration.cs",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Data\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.Data\\Migrations\\Configuration.cs",
@@ -230,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "dbo.Ctenars [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/KNIHOVNA_5f19a283b82740ddb90ef60b03b976b4/True/SqlTable/dbo.Ctenars.sql",
               "ToolTip": "dbo.Ctenars [Data]",
@@ -239,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\LoginForm.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\LoginForm.cs",
@@ -247,11 +280,12 @@
               "RelativeToolTip": "IS.Knihovna.UI.WinForms\\LoginForm.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAADwvyUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T21:58:14.492Z"
+              "WhenOpened": "2025-11-07T21:58:14.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\Program.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\Program.cs",
@@ -263,18 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RezervaceForm.cs [N\u00E1vrh]",
-              "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\RezervaceForm.cs",
-              "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\RezervaceForm.cs",
-              "ToolTip": "E:\\Informacni system verejne knihovny\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\RezervaceForm.cs [N\u00E1vrh]",
-              "RelativeToolTip": "..\\..\\..\\Informacni system verejne knihovny\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\RezervaceForm.cs [N\u00E1vrh]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T16:23:32.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "VypujckyForm.cs [N\u00E1vrh]",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\VypujckyForm.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\VypujckyForm.cs",
@@ -285,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "UpominkyForm.cs [N\u00E1vrh]",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.UI.WinForms\\UpominkyForm.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.UI.WinForms\\UpominkyForm.cs",
@@ -296,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Class1.cs",
               "DocumentMoniker": "E:\\Informacni_system_verejne_knihovny_Hanak\\src\\IS.Knihovna.sln\\IS.Knihovna.Services\\Class1.cs",
               "RelativeDocumentMoniker": "IS.Knihovna.Services\\Class1.cs",
