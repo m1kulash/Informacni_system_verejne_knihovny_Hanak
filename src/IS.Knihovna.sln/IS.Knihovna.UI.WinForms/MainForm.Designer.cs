@@ -53,7 +53,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(200, 334);
+            this.panelMenu.Size = new System.Drawing.Size(200, 545);
             this.panelMenu.TabIndex = 1;
             // 
             // panelObsah
@@ -61,7 +61,7 @@
             this.panelObsah.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelObsah.Location = new System.Drawing.Point(200, 0);
             this.panelObsah.Name = "panelObsah";
-            this.panelObsah.Size = new System.Drawing.Size(312, 334);
+            this.panelObsah.Size = new System.Drawing.Size(808, 545);
             this.panelObsah.TabIndex = 2;
             // 
             // btnOdhlasit
@@ -166,7 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(512, 334);
+            this.ClientSize = new System.Drawing.Size(1008, 545);
             this.Controls.Add(this.panelObsah);
             this.Controls.Add(this.panelMenu);
             this.Name = "MainForm";

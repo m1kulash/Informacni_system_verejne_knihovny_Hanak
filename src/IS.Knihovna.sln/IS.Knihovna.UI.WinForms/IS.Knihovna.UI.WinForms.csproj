@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -96,6 +97,9 @@
     <Compile Include="VypujckyForm.Designer.cs">
       <DependentUpon>VypujckyForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CtenarForm.resx">
+      <DependentUpon>CtenarForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,8 +116,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RezervaceForm.resx">
+      <DependentUpon>RezervaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatistikyForm.resx">
+      <DependentUpon>StatistikyForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TitulForm.resx">
       <DependentUpon>TitulForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpominkyForm.resx">
+      <DependentUpon>UpominkyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VypujckyForm.resx">
+      <DependentUpon>VypujckyForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

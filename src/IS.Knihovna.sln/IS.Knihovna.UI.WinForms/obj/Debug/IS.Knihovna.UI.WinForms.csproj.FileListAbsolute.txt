@@ -25,3 +25,8 @@ E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.W
 E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.LoginForm.resources
 E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.MainForm.resources
 E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.TitulForm.resources
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.CtenarForm.resources
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.RezervaceForm.resources
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.StatistikyForm.resources
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.UpominkyForm.resources
+E:\Informacni_system_verejne_knihovny_Hanak\src\IS.Knihovna.sln\IS.Knihovna.UI.WinForms\obj\Debug\IS.Knihovna.UI.WinForms.VypujckyForm.resources
