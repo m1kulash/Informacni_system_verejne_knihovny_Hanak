@@ -67,6 +67,7 @@
             this.btnObnovit.TabIndex = 12;
             this.btnObnovit.Text = "Obnovit";
             this.btnObnovit.UseVisualStyleBackColor = true;
+            this.btnObnovit.Click += new System.EventHandler(this.btnObnovit_Click);
             // 
             // chart1
             // 

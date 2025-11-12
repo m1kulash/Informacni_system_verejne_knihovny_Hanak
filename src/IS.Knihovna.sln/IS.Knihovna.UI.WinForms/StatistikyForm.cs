@@ -16,5 +16,10 @@ namespace IS.Knihovna.UI.WinForms
         {
             InitializeComponent();
         }
+        
+        private void btnObnovit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Obnovení seznamu bude břidána v KB2 (zatím prázdné).");
+        }
     }
 }

@@ -58,6 +58,7 @@
             this.btnObnovit.TabIndex = 12;
             this.btnObnovit.Text = "Obnovit";
             this.btnObnovit.UseVisualStyleBackColor = true;
+            this.btnObnovit.Click += new System.EventHandler(this.btnObnovit_Click);
             // 
             // btnVyhledat
             // 
@@ -67,6 +68,7 @@
             this.btnVyhledat.TabIndex = 11;
             this.btnVyhledat.Text = "Vyhledat";
             this.btnVyhledat.UseVisualStyleBackColor = true;
+            this.btnVyhledat.Click += new System.EventHandler(this.btnVyhledat_Click);
             // 
             // btnSmazat
             // 
@@ -76,6 +78,7 @@
             this.btnSmazat.TabIndex = 10;
             this.btnSmazat.Text = "Smazat";
             this.btnSmazat.UseVisualStyleBackColor = true;
+            this.btnSmazat.Click += new System.EventHandler(this.btnSmazat_Click);
             // 
             // btnUpravit
             // 
@@ -85,6 +88,7 @@
             this.btnUpravit.TabIndex = 9;
             this.btnUpravit.Text = "Upravit";
             this.btnUpravit.UseVisualStyleBackColor = true;
+            this.btnUpravit.Click += new System.EventHandler(this.btnUpravit_Click);
             // 
             // btnPridat
             // 
@@ -94,6 +98,7 @@
             this.btnPridat.TabIndex = 8;
             this.btnPridat.Text = "Přidat";
             this.btnPridat.UseVisualStyleBackColor = true;
+            this.btnPridat.Click += new System.EventHandler(this.btnPridat_Click);
             // 
             // dgvTituly
             // 

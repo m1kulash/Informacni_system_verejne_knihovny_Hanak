@@ -12,15 +12,17 @@ namespace IS.Knihovna.UI.WinForms
 {
     public partial class MainForm : Form
     {
-        // Uchovává aktuálně otevřený formulář
-        private Form aktualniFormular = null;
+        
 
         public MainForm()
         {
             InitializeComponent();
         }
         
-        // Pomocná metoda pro načtení formuláře do panelu
+        // Uchovává aktuálně otevřený formulář
+        private Form aktualniFormular = null;
+        
+        // Metoda pro načtení formuláře do panelu
         private void OtevriFormular(Form formular)
         {
             // Pokud je už nějaký formulář otevřený, zavřeme ho
@@ -30,7 +32,6 @@ namespace IS.Knihovna.UI.WinForms
             // Uložíme nový formulář jako aktuální
             aktualniFormular = formular;
 
-            // Vyčistí panelObsah před otevřením nového formuláře
             panelObsah.Controls.Clear();
 
             // Nastaví formulář jako vnořený do panelu
@@ -45,7 +46,7 @@ namespace IS.Knihovna.UI.WinForms
             formular.Show();
         }
 
-        // 🟩 Tlačítka – otevření jednotlivých formulářů
+        // Tlačítka – otevření jednotlivých formulářů
         private void btnKnihy_Click(object sender, EventArgs e)
         {
             OtevriFormular(new TitulForm());
@@ -78,7 +79,7 @@ namespace IS.Knihovna.UI.WinForms
 
         private void btnOdhlasit_Click(object sender, EventArgs e)
         {
-            // Zavře hlavní formulář a vrátí se na přihlašovací obrazovku
+            // Zavře hlavní formulář a vypne celou aplikaci
             this.Close();
         }
     }
