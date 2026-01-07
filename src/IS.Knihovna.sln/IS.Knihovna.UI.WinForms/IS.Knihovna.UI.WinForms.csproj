@@ -145,6 +145,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\IS.Knihovna.Data\IS.Knihovna.Data.csproj">
+      <Project>{A31ABB03-8F11-4D77-A998-1B4B1DDA9013}</Project>
+      <Name>IS.Knihovna.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IS.Knihovna.Domain\IS.Knihovna.Domain.csproj">
+      <Project>{C085993D-ED5B-4873-B50C-D9C8666FD1AD}</Project>
+      <Name>IS.Knihovna.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IS.Knihovna.Services\IS.Knihovna.Services.csproj">
       <Project>{20d0579f-a206-48b4-85eb-a3e03cffbb02}</Project>
       <Name>IS.Knihovna.Services</Name>

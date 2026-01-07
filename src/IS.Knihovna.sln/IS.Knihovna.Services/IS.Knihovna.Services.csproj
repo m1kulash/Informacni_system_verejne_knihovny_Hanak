@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,13 +42,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AutorService.cs" />
+    <Compile Include="CtenarService.cs" />
+    <Compile Include="ExemplarService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RezervaceService.cs" />
+    <Compile Include="TitulService.cs" />
+    <Compile Include="VydavatelService.cs" />
+    <Compile Include="VypujckaService.cs" />
+    <Compile Include="ZanrService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IS.Knihovna.Data\IS.Knihovna.Data.csproj">
       <Project>{a31abb03-8f11-4d77-a998-1b4b1dda9013}</Project>
       <Name>IS.Knihovna.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IS.Knihovna.Domain\IS.Knihovna.Domain.csproj">
+      <Project>{C085993D-ED5B-4873-B50C-D9C8666FD1AD}</Project>
+      <Name>IS.Knihovna.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
