@@ -1,0 +1,15 @@
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\obj\Debug\FormKnihy.csproj.AssemblyReference.cache
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\obj\Debug\FormKnihy.Properties.Resources.resources
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\obj\Debug\FormKnihy.csproj.GenerateResource.cache
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\obj\Debug\FormKnihy.csproj.CoreCompileInputs.cache
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\bin\Debug\FormKnihy.exe.config
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\bin\Debug\FormKnihy.exe
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\bin\Debug\FormKnihy.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\bin\Debug\EntityFramework.dll
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\bin\Debug\EntityFramework.xml
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\obj\Debug\FormKnihy.csproj.Up2Date
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\obj\Debug\FormKnihy.exe
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\obj\Debug\FormKnihy.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\Knihovna\FormKnihy\obj\Debug\FormKnihy.Migrations.PocatecniVerze.resources
