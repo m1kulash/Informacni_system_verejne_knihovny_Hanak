@@ -69,5 +69,44 @@ namespace IS.Knihovna.Services
                 .Where(t => t.Nazev.Contains(text) || t.ISBN.Contains(text))
                 .ToList();
         }
+
+        public List<Titul> FiltrujTituly(string nazev, string autor, string zanr, int? rokOd, int? rokDo)
+        {
+            var query = _context.Tituly
+                .Include(t => t.Autori)
+                .Include(t => t.Zanry)
+                .Include(t => t.Vydavatel)
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(nazev))
+                query = query.Where(t => t.Nazev.Contains(nazev) || t.ISBN.Contains(nazev));
+
+            if (!string.IsNullOrEmpty(autor))
+                query = query.Where(t => t.Autori.Any(a => a.Prijmeni.Contains(autor) || a.Jmeno.Contains(autor)));
+
+            if (!string.IsNullOrEmpty(zanr))
+                query = query.Where(t => t.Zanry.Any(z => z.Nazev.Contains(zanr)));
+
+            if (rokOd.HasValue)
+                query = query.Where(t => t.RokVydani >= rokOd.Value);
+
+            if (rokDo.HasValue)
+                query = query.Where(t => t.RokVydani <= rokDo.Value);
+
+            return query.ToList();
+        }
+
+        // Metoda pro vyřazení titulu (prodej)
+        public void VyraditExemplar(int exemplarId, bool prodejCtenari, decimal cena)
+        {
+            var exemplar = _context.Exemplare.Find(exemplarId);
+            if (exemplar != null)
+            {
+                exemplar.Stav = prodejCtenari ? "Prodáno" : "Vyřazeno";
+                // Pokud je to prodej, můžeme rovnou vytvořit záznam o platbě, 
+                // ale pro jednoduchost stačí změna stavu.
+                _context.SaveChanges();
+            }
+        }
     }
 }

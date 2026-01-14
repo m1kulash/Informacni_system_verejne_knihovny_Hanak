@@ -124,4 +124,17 @@ namespace IS.Knihovna.Domain.Entities
 
         public virtual Upominka Upominka { get; set; }
     }
+
+    public class Objednavka
+    {
+        public int ObjednavkaID { get; set; }
+        public string NazevTitulu { get; set; }
+        public string Autor { get; set; }
+        public int? VydavatelID { get; set; } // Může být null, pokud nevíme
+        public DateTime DatumVytvoreni { get; set; }
+        public string Stav { get; set; } // "Nová", "Objednáno", "Vyřízeno", "Zrušeno"
+        public decimal OdhadovanaCena { get; set; }
+
+        public virtual Vydavatel Vydavatel { get; set; }
+    }
 }

@@ -45,8 +45,10 @@
     <Compile Include="AutorService.cs" />
     <Compile Include="CtenarService.cs" />
     <Compile Include="ExemplarService.cs" />
+    <Compile Include="ObjednavkaService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RezervaceService.cs" />
+    <Compile Include="StatistikaService.cs" />
     <Compile Include="TitulService.cs" />
     <Compile Include="VydavatelService.cs" />
     <Compile Include="VypujckaService.cs" />

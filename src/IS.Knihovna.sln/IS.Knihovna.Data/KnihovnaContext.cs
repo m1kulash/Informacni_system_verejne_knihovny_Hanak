@@ -26,6 +26,7 @@ namespace IS.Knihovna.Data
         public DbSet<Rezervace> Rezervace { get; set; }
         public DbSet<Upominka> Upominky { get; set; }
         public DbSet<Platba> Platby { get; set; }
+        public DbSet<Objednavka> Objednavky { get; set; } // Přidání DbSetu pro objednávky
 
         // Konfigurace vztahů mezi entitami
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -59,5 +60,16 @@ namespace IS.Knihovna.Data
 
             base.OnModelCreating(modelBuilder);
         }
+    }
+
+    // Pokud třída Objednavka neexistuje, je potřeba ji vytvořit.
+    // Pokud existuje, ujistěte se, že je správně definována a odpovídá použití v ObjednavkaService.
+    public class Objednavka
+    {
+        public int Id { get; set; }
+        public DateTime DatumVytvoreni { get; set; }
+        public string Stav { get; set; }
+        public Vydavatel Vydavatel { get; set; }
+        // Přidejte další vlastnosti dle potřeby
     }
 }
