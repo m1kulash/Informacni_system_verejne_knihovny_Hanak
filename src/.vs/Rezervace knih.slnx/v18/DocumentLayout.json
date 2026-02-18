@@ -117,7 +117,8 @@
               "RelativeToolTip": "Library.UI\\AddBookForm.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAmwGQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:16:47.177Z"
+              "WhenOpened": "2026-02-18T14:16:47.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -125,10 +126,11 @@
               "Title": "AddReaderForm.cs [N\u00E1vrh]",
               "DocumentMoniker": "C:\\Informacni_system_verejne_knihovny_Hanak\\src\\Library.UI\\AddReaderForm.cs",
               "RelativeDocumentMoniker": "Library.UI\\AddReaderForm.cs",
-              "ToolTip": "C:\\Rezervace knih\\Library.UI\\AddReaderForm.cs [N\u00E1vrh]",
-              "RelativeToolTip": "..\\..\\Rezervace knih\\Library.UI\\AddReaderForm.cs [N\u00E1vrh]",
+              "ToolTip": "C:\\Informacni_system_verejne_knihovny_Hanak\\src\\Library.UI\\AddReaderForm.cs [N\u00E1vrh]",
+              "RelativeToolTip": "Library.UI\\AddReaderForm.cs [N\u00E1vrh]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:37:51.371Z"
+              "WhenOpened": "2026-02-18T14:37:51.371Z",
+              "EditorCaption": " [N\u00E1vrh]"
             },
             {
               "$type": "Document",
@@ -140,7 +142,8 @@
               "RelativeToolTip": "Library.UI\\AddReaderForm.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAA5wDcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:38:26.471Z"
+              "WhenOpened": "2026-02-18T14:38:26.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -177,7 +180,8 @@
               "RelativeToolTip": "Library.Data\\Entities\\Author.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T14:56:37.559Z"
+              "WhenOpened": "2026-02-17T14:56:37.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -189,7 +193,8 @@
               "RelativeToolTip": "Library.Business\\BookService.cs",
               "ViewState": "AgIAAJ8AAAAAAAAAAAAmwMMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T14:48:20.021Z"
+              "WhenOpened": "2026-02-17T14:48:20.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -201,7 +206,8 @@
               "RelativeToolTip": "Library.UI\\AddBookForm.Designer.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAmwKEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:16:22.63Z"
+              "WhenOpened": "2026-02-18T14:16:22.63Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -213,7 +219,8 @@
               "RelativeToolTip": "Library.UI\\Form1.Designer.cs",
               "ViewState": "AgIAAOMBAAAAAAAAAAAmwPwBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:01:35.239Z"
+              "WhenOpened": "2026-02-18T14:01:35.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -221,10 +228,11 @@
               "Title": "AddBookForm.cs [N\u00E1vrh]",
               "DocumentMoniker": "C:\\Informacni_system_verejne_knihovny_Hanak\\src\\Library.UI\\AddBookForm.cs",
               "RelativeDocumentMoniker": "Library.UI\\AddBookForm.cs",
-              "ToolTip": "C:\\Rezervace knih\\Library.UI\\AddBookForm.cs [N\u00E1vrh]",
-              "RelativeToolTip": "..\\..\\Rezervace knih\\Library.UI\\AddBookForm.cs [N\u00E1vrh]",
+              "ToolTip": "C:\\Informacni_system_verejne_knihovny_Hanak\\src\\Library.UI\\AddBookForm.cs [N\u00E1vrh]",
+              "RelativeToolTip": "Library.UI\\AddBookForm.cs [N\u00E1vrh]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:15:41.364Z"
+              "WhenOpened": "2026-02-18T14:15:41.364Z",
+              "EditorCaption": " [N\u00E1vrh]"
             },
             {
               "$type": "Document",
@@ -236,7 +244,8 @@
               "RelativeToolTip": "Library.Data\\Entities\\Reader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:02:23.781Z"
+              "WhenOpened": "2026-02-17T15:02:23.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -248,7 +257,8 @@
               "RelativeToolTip": "Library.Data\\Entities\\Publisher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:01:32.061Z"
+              "WhenOpened": "2026-02-17T15:01:32.061Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -260,7 +270,8 @@
               "RelativeToolTip": "Library.Data\\Entities\\Genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:01:11.572Z"
+              "WhenOpened": "2026-02-17T15:01:11.572Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -272,7 +283,8 @@
               "RelativeToolTip": "Library.Data\\Entities\\Loan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:02:58.691Z"
+              "WhenOpened": "2026-02-17T15:02:58.691Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -284,7 +296,8 @@
               "RelativeToolTip": "Library.Data\\Entities\\Book.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAA9wCkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:01:51.675Z"
+              "WhenOpened": "2026-02-17T15:01:51.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -296,7 +309,8 @@
               "RelativeToolTip": "Library.Data\\Migrations\\Configuration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:27:53.911Z"
+              "WhenOpened": "2026-02-17T15:27:53.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -308,7 +322,8 @@
               "RelativeToolTip": "Library.Data\\Migrations\\202602171530585_InitialCreate.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:31:42.473Z"
+              "WhenOpened": "2026-02-17T15:31:42.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -320,7 +335,8 @@
               "RelativeToolTip": "Library.Business\\ReaderService.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAowCcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:32:50.627Z"
+              "WhenOpened": "2026-02-18T14:32:50.627Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -332,7 +348,8 @@
               "RelativeToolTip": "Library.Business\\LoanService.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAwwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T15:05:44.162Z"
+              "WhenOpened": "2026-02-18T15:05:44.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -344,7 +361,8 @@
               "RelativeToolTip": "Library.UI\\AddReaderForm.Designer.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAmwFgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T14:38:18.117Z"
+              "WhenOpened": "2026-02-18T14:38:18.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -355,7 +373,8 @@
               "ToolTip": "C:\\Informacni_system_verejne_knihovny_Hanak\\src\\Library.UI\\Form1.resx",
               "RelativeToolTip": "Library.UI\\Form1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-02-18T14:28:18.655Z"
+              "WhenOpened": "2026-02-18T14:28:18.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -367,7 +386,8 @@
               "RelativeToolTip": "Library.Data\\LibraryContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:13:04.773Z"
+              "WhenOpened": "2026-02-17T15:13:04.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -379,7 +399,8 @@
               "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAB4TAAAAAAAAAADgvzQTAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-02-18T14:24:30.516Z"
+              "WhenOpened": "2026-02-18T14:24:30.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -391,7 +412,8 @@
               "RelativeToolTip": "Library.UI\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-02-17T15:17:47.862Z"
+              "WhenOpened": "2026-02-17T15:17:47.862Z",
+              "EditorCaption": ""
             }
           ]
         }
