@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Library.Business/Library.Business.csproj" Id="f931f695-c8d0-425a-8c79-0a80c3caed63" />
+  <Project Path="Library.Data/Library.Data.csproj" Id="44d863dd-8266-4acf-bb98-1524fc1ae6ac" />
+  <Project Path="Library.UI/Library.UI.csproj" Id="17e6f57f-fb45-48ac-a25a-cca759421a92" />
+</Solution>

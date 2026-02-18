@@ -1,0 +1,15 @@
+C:\Rezervace knih\Library.Business\bin\Debug\Library.Business.dll.config
+C:\Rezervace knih\Library.Business\bin\Debug\Library.Business.dll
+C:\Rezervace knih\Library.Business\bin\Debug\Library.Business.pdb
+C:\Rezervace knih\Library.Business\bin\Debug\EntityFramework.dll
+C:\Rezervace knih\Library.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Rezervace knih\Library.Business\bin\Debug\Library.Data.dll
+C:\Rezervace knih\Library.Business\bin\Debug\Library.Data.pdb
+C:\Rezervace knih\Library.Business\bin\Debug\Library.Data.dll.config
+C:\Rezervace knih\Library.Business\bin\Debug\EntityFramework.xml
+C:\Rezervace knih\Library.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Rezervace knih\Library.Business\obj\Debug\Library.Business.csproj.AssemblyReference.cache
+C:\Rezervace knih\Library.Business\obj\Debug\Library.Business.csproj.CoreCompileInputs.cache
+C:\Rezervace knih\Library.Business\obj\Debug\Library..A25BF0A9.Up2Date
+C:\Rezervace knih\Library.Business\obj\Debug\Library.Business.dll
+C:\Rezervace knih\Library.Business\obj\Debug\Library.Business.pdb

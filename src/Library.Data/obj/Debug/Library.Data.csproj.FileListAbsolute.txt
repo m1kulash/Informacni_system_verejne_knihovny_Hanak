@@ -1,0 +1,14 @@
+C:\Rezervace knih\Library.Data\bin\Debug\Library.Data.dll.config
+C:\Rezervace knih\Library.Data\bin\Debug\Library.Data.dll
+C:\Rezervace knih\Library.Data\bin\Debug\Library.Data.pdb
+C:\Rezervace knih\Library.Data\bin\Debug\EntityFramework.dll
+C:\Rezervace knih\Library.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Rezervace knih\Library.Data\bin\Debug\EntityFramework.xml
+C:\Rezervace knih\Library.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.csproj.AssemblyReference.cache
+C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.csproj.CoreCompileInputs.cache
+C:\Rezervace knih\Library.Data\obj\Debug\Library..D93EEA8C.Up2Date
+C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.dll
+C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.pdb
+C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.Migrations.InitialCreate.resources
+C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.csproj.GenerateResource.cache
