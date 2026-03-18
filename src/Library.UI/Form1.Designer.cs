@@ -13,8 +13,12 @@
 
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabDashboard = new System.Windows.Forms.TabPage();
+            this.chartBooks = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.lblStatsFines = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.lblStatsLoans = new System.Windows.Forms.Label();
@@ -25,7 +29,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnRefreshDashboard = new System.Windows.Forms.Button();
             this.tabBooks = new System.Windows.Forms.TabPage();
-            this.btnDeleteBook = new System.Windows.Forms.Button(); // NOVÉ TLAČÍTKO
+            this.btnDeleteBook = new System.Windows.Forms.Button();
             this.lblSearchBooks = new System.Windows.Forms.Label();
             this.txtSearchBooks = new System.Windows.Forms.TextBox();
             this.btnAddBook = new System.Windows.Forms.Button();
@@ -38,6 +42,7 @@
             this.btnLoadReaders = new System.Windows.Forms.Button();
             this.gridReaders = new System.Windows.Forms.DataGridView();
             this.tabLoans = new System.Windows.Forms.TabPage();
+            this.btnReminders = new System.Windows.Forms.Button();
             this.btnReturn = new System.Windows.Forms.Button();
             this.gridLoans = new System.Windows.Forms.DataGridView();
             this.btnBorrow = new System.Windows.Forms.Button();
@@ -50,6 +55,7 @@
             this.gridHistory = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabDashboard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartBooks)).BeginInit();
             this.tabBooks.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridBooks)).BeginInit();
             this.tabReaders.SuspendLayout();
@@ -77,6 +83,7 @@
             // 
             // tabDashboard
             // 
+            this.tabDashboard.Controls.Add(this.chartBooks);
             this.tabDashboard.Controls.Add(this.lblStatsFines);
             this.tabDashboard.Controls.Add(this.label8);
             this.tabDashboard.Controls.Add(this.lblStatsLoans);
@@ -93,6 +100,22 @@
             this.tabDashboard.TabIndex = 0;
             this.tabDashboard.Text = "Přehled (Dashboard)";
             this.tabDashboard.UseVisualStyleBackColor = true;
+            // 
+            // chartBooks
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartBooks.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartBooks.Legends.Add(legend1);
+            this.chartBooks.Location = new System.Drawing.Point(500, 120);
+            this.chartBooks.Name = "chartBooks";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartBooks.Series.Add(series1);
+            this.chartBooks.Size = new System.Drawing.Size(350, 300);
+            this.chartBooks.TabIndex = 9;
+            this.chartBooks.Text = "chart1";
             // 
             // lblStatsFines
             // 
@@ -203,20 +226,20 @@
             this.tabBooks.Text = "Knihy";
             this.tabBooks.UseVisualStyleBackColor = true;
             // 
-            // btnDeleteBook (NOVÉ)
+            // btnDeleteBook
             // 
+            this.btnDeleteBook.ForeColor = System.Drawing.Color.Red;
             this.btnDeleteBook.Location = new System.Drawing.Point(340, 15);
             this.btnDeleteBook.Name = "btnDeleteBook";
             this.btnDeleteBook.Size = new System.Drawing.Size(150, 40);
             this.btnDeleteBook.TabIndex = 5;
             this.btnDeleteBook.Text = "🗑️ Odstranit knihu";
-            this.btnDeleteBook.ForeColor = System.Drawing.Color.Red;
             this.btnDeleteBook.Click += new System.EventHandler(this.btnDeleteBook_Click);
             // 
             // lblSearchBooks
             // 
             this.lblSearchBooks.AutoSize = true;
-            this.lblSearchBooks.Location = new System.Drawing.Point(530, 27); // Posunuto
+            this.lblSearchBooks.Location = new System.Drawing.Point(530, 27);
             this.lblSearchBooks.Name = "lblSearchBooks";
             this.lblSearchBooks.Size = new System.Drawing.Size(53, 17);
             this.lblSearchBooks.TabIndex = 0;
@@ -224,7 +247,7 @@
             // 
             // txtSearchBooks
             // 
-            this.txtSearchBooks.Location = new System.Drawing.Point(590, 24); // Posunuto
+            this.txtSearchBooks.Location = new System.Drawing.Point(590, 24);
             this.txtSearchBooks.Name = "txtSearchBooks";
             this.txtSearchBooks.Size = new System.Drawing.Size(200, 22);
             this.txtSearchBooks.TabIndex = 1;
@@ -257,7 +280,7 @@
             this.gridBooks.Location = new System.Drawing.Point(6, 70);
             this.gridBooks.Name = "gridBooks";
             this.gridBooks.RowHeadersWidth = 51;
-            this.gridBooks.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect; // Celý řádek
+            this.gridBooks.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gridBooks.Size = new System.Drawing.Size(880, 395);
             this.gridBooks.TabIndex = 4;
             // 
@@ -325,6 +348,7 @@
             // 
             // tabLoans
             // 
+            this.tabLoans.Controls.Add(this.btnReminders);
             this.tabLoans.Controls.Add(this.btnReturn);
             this.tabLoans.Controls.Add(this.gridLoans);
             this.tabLoans.Controls.Add(this.btnBorrow);
@@ -339,6 +363,16 @@
             this.tabLoans.TabIndex = 3;
             this.tabLoans.Text = "Výpůjční pult";
             this.tabLoans.UseVisualStyleBackColor = true;
+            // 
+            // btnReminders
+            // 
+            this.btnReminders.Location = new System.Drawing.Point(580, 30);
+            this.btnReminders.Name = "btnReminders";
+            this.btnReminders.Size = new System.Drawing.Size(200, 30);
+            this.btnReminders.TabIndex = 7;
+            this.btnReminders.Text = "🔔 Vygenerovať upomienky";
+            this.btnReminders.UseVisualStyleBackColor = true;
+            this.btnReminders.Click += new System.EventHandler(this.btnReminders_Click);
             // 
             // btnReturn
             // 
@@ -449,6 +483,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabDashboard.ResumeLayout(false);
             this.tabDashboard.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartBooks)).EndInit();
             this.tabBooks.ResumeLayout(false);
             this.tabBooks.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridBooks)).EndInit();
@@ -461,14 +496,12 @@
             this.tabHistory.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridHistory)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         #endregion
 
-        // Proměnné
         private System.Windows.Forms.TabControl tabControl1;
-
-        // Dashboard
         private System.Windows.Forms.TabPage tabDashboard;
         private System.Windows.Forms.Label lblStatsBooks;
         private System.Windows.Forms.Label lblStatsReaders;
@@ -477,7 +510,9 @@
         private System.Windows.Forms.Label label3, label4, label6, label8;
         private System.Windows.Forms.Button btnRefreshDashboard;
 
-        // Ostatní
+        // --- NOVÉ: Pridaný graf ---
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartBooks;
+
         private System.Windows.Forms.TabPage tabBooks;
         private System.Windows.Forms.TabPage tabReaders;
         private System.Windows.Forms.TabPage tabLoans;
@@ -502,8 +537,9 @@
         private System.Windows.Forms.Label lblSearchReaders;
         private System.Windows.Forms.DataGridView gridHistory;
         private System.Windows.Forms.Button btnRefreshHistory;
-
-        // NOVÉ TLAČÍTKO
         private System.Windows.Forms.Button btnDeleteBook;
+
+        // --- NOVÉ: Pridané tlačidlo upomienok ---
+        private System.Windows.Forms.Button btnReminders;
     }
 }

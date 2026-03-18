@@ -21,9 +21,13 @@ namespace Library.Data.Entities
 
         public string MediaType { get; set; } // Nosič: Kniha, CD, DVD...
 
+        // --- A. VYŘAZENÍ A ODKUP ---
         public bool IsDeleted { get; set; } // "Vyřazeno" - true/false
+        public decimal? SalePrice { get; set; } // Cena pro odkoupení zaregistrovaným čtenářem
 
-        public decimal? SalePrice { get; set; } // Cena pro odkoupení (pokud je vyřazena)
+        // --- B. MEZIKNIHOVNÍ VÝPŮJČKA (NOVÉ) ---
+        public bool IsInterlibrary { get; set; } // true = titul zapůjčený od jiné knihovny
+        public decimal? InterlibraryFee { get; set; } // Poplatek za meziknihovní výpůjčku (např. 50 Kč)
 
         // --- VAZBY (Cizí klíče) ---
 
@@ -39,6 +43,15 @@ namespace Library.Data.Entities
         [ForeignKey("PublisherId")]
         public virtual Publisher Publisher { get; set; }
 
+        // --- KOLEKCE (vztah 1:N) ---
         public virtual ICollection<Loan> Loans { get; set; }
+
+        // Vazba na frontu čtenářů
+        public virtual ICollection<Reservation> Reservations { get; set; }
+
+        public override string ToString()
+        {
+            return Title;
+        }
     }
 }

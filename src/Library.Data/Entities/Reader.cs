@@ -26,5 +26,10 @@ namespace Library.Data.Entities
         public string EducationLevel { get; set; } // ZŠ, SŠ, VŠ...
 
         public virtual ICollection<Loan> Loans { get; set; }
+
+        public override string ToString()
+        {
+            return $"{FirstName} {LastName}";
+        }
     }
 }

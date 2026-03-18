@@ -14,41 +14,39 @@ namespace Library.UI
 {
     public partial class AddBookForm : Form
     {
-        private BookService _service;
+        private BookService _service; // Odkaz na logiku pro práci s knihami
 
         public AddBookForm()
         {
             InitializeComponent();
             _service = new BookService();
 
-            // --- KROK 1: OPRAVA CHYBY ---
-            // Nejdříve musíme povolit psaní do roletky (DropDown)
-            // Pokud bychom to neudělali a nastavili AutoCompleteMode, vyhodí to chybu.
+            // Nastavení výběrových polí (ComboBoxů) tak, aby do nich šlo i volně psát
             comboAuthor.DropDownStyle = ComboBoxStyle.DropDown;
             comboGenre.DropDownStyle = ComboBoxStyle.DropDown;
             comboPublisher.DropDownStyle = ComboBoxStyle.DropDown;
 
-            // --- KROK 2: Až teď načteme data a zapneme našeptávání ---
-            LoadDataForComboBoxes();
+            LoadDataForComboBoxes(); // Načtení existujících dat při startu okna
         }
 
+        // Naplnění výběrových polí daty z databáze (Autoři, Žánry, Vydavatelé)
         private void LoadDataForComboBoxes()
         {
-            // Autor
+            // Nastavení zdroje dat pro Autora + zapnutí našeptávání (Autocomplete)
             comboAuthor.DataSource = _service.GetAuthors();
-            comboAuthor.DisplayMember = "FullName";
-            comboAuthor.ValueMember = "Id";
+            comboAuthor.DisplayMember = "FullName"; // Co uživatel uvidí
+            comboAuthor.ValueMember = "Id";         // Skrytý klíč pro databázi
             comboAuthor.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             comboAuthor.AutoCompleteSource = AutoCompleteSource.ListItems;
 
-            // Žánr
+            // Nastavení pro Žánr
             comboGenre.DataSource = _service.GetGenres();
             comboGenre.DisplayMember = "Name";
             comboGenre.ValueMember = "Id";
             comboGenre.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             comboGenre.AutoCompleteSource = AutoCompleteSource.ListItems;
 
-            // Vydavatel
+            // Nastavení pro Vydavatele
             comboPublisher.DataSource = _service.GetPublishers();
             comboPublisher.DisplayMember = "Name";
             comboPublisher.ValueMember = "Id";
@@ -56,33 +54,34 @@ namespace Library.UI
             comboPublisher.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
 
+        // Logika pro uložení nové knihy po kliknutí na tlačítko
         private void btnSave_Click(object sender, EventArgs e)
         {
             try
             {
-                // Validace názvu
+                // Základní kontrola (validace), zda uživatel nezapomněl na název
                 if (string.IsNullOrWhiteSpace(txtTitle.Text))
                 {
                     MessageBox.Show("Vyplň název knihy!");
                     return;
                 }
 
-                // Získáme texty přímo z roletek (to, co uživatel napsal nebo vybral)
+                // Získání textu z ComboBoxů (může to být vybraný prvek nebo nově napsaný text)
                 string authorName = comboAuthor.Text;
                 string genreName = comboGenre.Text;
                 string publisherName = comboPublisher.Text;
 
-                // Kontrola, zda je něco vyplněno
+                // Kontrola povinných polí
                 if (string.IsNullOrWhiteSpace(authorName) || string.IsNullOrWhiteSpace(genreName))
                 {
                     MessageBox.Show("Vyplň autora a žánr!");
                     return;
                 }
 
-                // Zavoláme chytrou metodu pro uložení (která případně vytvoří nového autora)
+                // Volání "chytré" metody, která si sama poradí s vytvořením autora/žánru, pokud neexistují
                 _service.AddBookSmart(
                     txtTitle.Text,
-                    (int)numYear.Value,
+                    (int)numYear.Value, // Hodnota z numerického pole pro rok
                     txtDescription.Text,
                     authorName,
                     genreName,
@@ -90,10 +89,11 @@ namespace Library.UI
                 );
 
                 MessageBox.Show("Kniha úspěšně přidána!");
-                this.Close();
+                this.Close(); // Zavření okna po úspěšném uložení
             }
             catch (Exception ex)
             {
+                // Zachycení a zobrazení chyby v případě problému s databází
                 MessageBox.Show("Chyba při ukládání: " + ex.Message);
             }
         }

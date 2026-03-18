@@ -8,40 +8,43 @@ namespace Library.Business
 {
     public class ReaderService
     {
-        // 1. Načíst všechny čtenáře
+        // Načtení kompletního seznamu čtenářů z databáze
         public List<Reader> GetAllReaders()
         {
             using (var context = new LibraryContext())
             {
+                // Jednoduchý select všech záznamů z tabulky Readers
                 return context.Readers.ToList();
             }
         }
 
-        // 2. Přidat nového čtenáře
+        // Registrace nového čtenáře do systému
         public void AddReader(string firstName, string lastName, string email, DateTime birthDate, string gender, string education)
         {
             using (var context = new LibraryContext())
             {
+                // Mapování parametrů z formuláře na vlastnosti entity Reader
                 var newReader = new Reader
                 {
                     FirstName = firstName,
                     LastName = lastName,
                     Email = email,
-                    DateOfBirth = birthDate,
+                    DateOfBirth = birthDate, // Důležité pro kontrolu věku nebo narozenin
                     Gender = gender,
                     EducationLevel = education
                 };
 
-                context.Readers.Add(newReader);
-                context.SaveChanges();
+                context.Readers.Add(newReader); // Přidání objektu do kontextu
+                context.SaveChanges(); // Fyzický zápis do SQL databáze
             }
         }
 
-        // 3. Vytvořit testovacího čtenáře
+        // Automatické generování ukázkových dat (Data Seeding)
         public void CreateTestReader()
         {
             using (var context = new LibraryContext())
             {
+                // Kontrola existence: pokud v DB nikdo není, vytvoří se vzorový záznam
                 if (!context.Readers.Any())
                 {
                     context.Readers.Add(new Reader
@@ -58,13 +61,14 @@ namespace Library.Business
             }
         }
 
-        // Vyhledávání čtenářů podle jména nebo příjmení
+        // Filtrování čtenářů podle zadaného textu (vyhledávání)
         public List<Reader> SearchReaders(string query)
         {
             using (var context = new LibraryContext())
             {
-                query = query.ToLower();
+                query = query.ToLower(); // Normalizace textu na malá písmena
 
+                // Hledání shody buď v příjmení, nebo v křestním jméně
                 return context.Readers
                     .Where(r => r.LastName.ToLower().Contains(query) ||
                                 r.FirstName.ToLower().Contains(query))

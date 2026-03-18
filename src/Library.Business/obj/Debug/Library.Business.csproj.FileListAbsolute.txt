@@ -13,3 +13,18 @@ C:\Rezervace knih\Library.Business\obj\Debug\Library.Business.csproj.CoreCompile
 C:\Rezervace knih\Library.Business\obj\Debug\Library..A25BF0A9.Up2Date
 C:\Rezervace knih\Library.Business\obj\Debug\Library.Business.dll
 C:\Rezervace knih\Library.Business\obj\Debug\Library.Business.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\Library.Business.dll.config
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\Library.Business.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\Library.Business.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\EntityFramework.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\Library.Data.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\Library.Data.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\Library.Data.dll.config
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\EntityFramework.xml
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\obj\Debug\Library.Business.csproj.AssemblyReference.cache
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\obj\Debug\Library.Business.csproj.CoreCompileInputs.cache
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\obj\Debug\Library..A25BF0A9.Up2Date
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\obj\Debug\Library.Business.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Business\obj\Debug\Library.Business.pdb

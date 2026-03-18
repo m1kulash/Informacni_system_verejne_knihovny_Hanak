@@ -12,3 +12,15 @@ C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.dll
 C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.pdb
 C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.Migrations.InitialCreate.resources
 C:\Rezervace knih\Library.Data\obj\Debug\Library.Data.csproj.GenerateResource.cache
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\bin\Debug\Library.Data.dll.config
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\bin\Debug\Library.Data.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\bin\Debug\Library.Data.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\bin\Debug\EntityFramework.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\bin\Debug\EntityFramework.xml
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\obj\Debug\Library.Data.csproj.AssemblyReference.cache
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\obj\Debug\Library.Data.csproj.CoreCompileInputs.cache
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\obj\Debug\Library..D93EEA8C.Up2Date
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\obj\Debug\Library.Data.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.Data\obj\Debug\Library.Data.pdb

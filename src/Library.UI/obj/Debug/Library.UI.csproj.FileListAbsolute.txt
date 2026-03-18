@@ -19,3 +19,24 @@ C:\Rezervace knih\Library.UI\obj\Debug\Library.UI.csproj.Up2Date
 C:\Rezervace knih\Library.UI\obj\Debug\Library.UI.exe
 C:\Rezervace knih\Library.UI\obj\Debug\Library.UI.pdb
 C:\Rezervace knih\Library.UI\obj\Debug\Library.UI.Form1.resources
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\Library.UI.exe.config
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\Library.UI.exe
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\Library.UI.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\EntityFramework.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\Library.Business.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\Library.Data.dll
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\Library.Business.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\Library.Business.dll.config
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\Library.Data.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\Library.Data.dll.config
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\EntityFramework.xml
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.csproj.AssemblyReference.cache
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.Form1.resources
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.Properties.Resources.resources
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.csproj.GenerateResource.cache
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.csproj.CoreCompileInputs.cache
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.csproj.Up2Date
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.exe
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.pdb

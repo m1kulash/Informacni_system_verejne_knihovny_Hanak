@@ -55,6 +55,7 @@
     <Compile Include="LoanService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReaderService.cs" />
+    <Compile Include="ReservationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Library.Data\Library.Data.csproj">
