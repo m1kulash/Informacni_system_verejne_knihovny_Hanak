@@ -11,101 +11,118 @@ namespace Library.Business
 {
     public class LoanService
     {
-        // Načtení seznamu všech aktuálně probíhajících výpůjček
+        // Načtení seznamu všech aktivních výpůjček (knihy, které jsou momentálně venku)
         public List<Loan> GetActiveLoans()
         {
             using (var context = new LibraryContext())
             {
-                // Filtrování záznamů, které nemají vyplněné datum vrácení (ReturnDate je null)
-                // Include zajišťuje načtení souvisejících dat o čtenáři a knize pro zobrazení v UI
+                // Filtrujeme záznamy, kde chybí datum vrácení
                 return context.Loans
                     .Where(l => l.ReturnDate == null)
-                    .Include(l => l.Reader)
-                    .Include(l => l.Book)
+                    .Include(l => l.Reader) // Načtení dat o čtenáři
+                    .Include(l => l.Book)   // Načtení dat o knize
                     .ToList();
             }
         }
 
-        // Realizace nové výpůjčky knihy čtenáři
+        // Metoda pro vytvoření nové výpůjčky
         public void BorrowBook(int readerId, int bookId)
         {
             using (var context = new LibraryContext())
             {
-                // Validace dostupnosti: kontrola, zda kniha již není půjčená jinému čtenáři
+                // Validace: Kontrola dostupnosti knihy (zda ji už někdo nemá)
                 bool isBorrowed = context.Loans.Any(l => l.BookId == bookId && l.ReturnDate == null);
                 if (isBorrowed)
                 {
-                    throw new Exception("Tato kniha je již půjčená!");
+                    throw new Exception("Tuto knihu nelze půjčit, protože ji má momentálně jiný čtenář.");
                 }
 
-                // Vytvoření nového záznamu o výpůjčce s nastavením termínů
+                // Vytvoření záznamu s termínem vrácení 31 dní od dnešního data
                 var loan = new Loan
                 {
                     ReaderId = readerId,
                     BookId = bookId,
-                    LoanDate = DateTime.Now, // Aktuální čas zapůjčení
-                    DueDate = DateTime.Now.AddDays(31), // Termín vrácení nastaven na 31 dní (standardní měsíc)
+                    LoanDate = DateTime.Now,
+                    DueDate = DateTime.Now.AddDays(31), // Standardní výpůjční lhůta
                     ReturnDate = null,
-                    FineAmount = 0 // Inicializace pokuty na nulu
+                    FineAmount = 0
                 };
 
                 context.Loans.Add(loan);
-                context.SaveChanges();
+                context.SaveChanges(); // Uložení nové výpůjčky do databáze
             }
         }
 
-        // --- KLÍČOVÁ FUNKCE: VRÁCENÍ KNIHY A KONTROLA POŽADAVKŮ FÁZE 2 ---
+        // --- KLÍČOVÁ FUNKCE: VRÁCENÍ KNIHY A VÝPOČET POKUTY ---
         public decimal ReturnBook(int loanId)
         {
             using (var context = new Library.Data.LibraryContext())
             {
+                // Najdeme konkrétní výpůjčku podle jejího ID
                 var loan = context.Loans.Include(l => l.Book).FirstOrDefault(l => l.Id == loanId);
-                if (loan == null) return 0;
+                if (loan == null) throw new Exception("Výpůjčka nebyla nalezena.");
 
-                loan.ReturnDate = DateTime.Now; // Nastavení reálného data vrácení
+                // Nastavíme aktuální čas jako okamžik vrácení
+                loan.ReturnDate = DateTime.Now;
 
-                // Automatický výpočet pokuty při překročení termínu (DueDate)
+                // Logika pro výpočet pokuty: 5 Kč za každý den po termínu (DueDate)
                 decimal fine = 0;
                 if (loan.ReturnDate > loan.DueDate)
                 {
-                    // Výpočet rozdílu ve dnech
                     int daysLate = (loan.ReturnDate.Value - loan.DueDate).Days;
-                    fine = daysLate * 5; // Sazba: 5 Kč za každý den zpoždění
-                    loan.FineAmount = fine; // Uložení pokuty do historie výpůjčky
+                    fine = daysLate * 5; // Sazba pokuty
+                    loan.FineAmount = fine; // Zápis výše pokuty do záznamu
                 }
 
-                context.SaveChanges();
-
-                // KONTROLA FRONTY (POŽADAVEK FÁZE 2): Ověření rezervací na vrácenou knihu
-                var nextInQueue = context.Reservations
-                    .Include(r => r.Reader)
-                    .Where(r => r.BookId == loan.BookId)
-                    .OrderBy(r => r.ReservationDate) // Řazení od nejstarší rezervace (kdo přišel dřív)
-                    .FirstOrDefault();
-
-                if (nextInQueue != null)
-                {
-                    // Pokud ve frontě někdo čeká, vyvolá se výjimka, která informuje obsluhu v hlavním okně
-                    throw new Exception($"Kniha vrácena. POZOR: Na knihu čeká v pořadí čtenář: {nextInQueue.Reader.FirstName} {nextInQueue.Reader.LastName}!");
-                }
-
-                return fine; // Vrací výši pokuty pro zobrazení v MessageBoxu
+                context.SaveChanges(); // Uložení změn (uzavření výpůjčky)
+                return fine; // Vracíme hodnotu pro zobrazení obsluze
             }
         }
 
-        // Načtení historie všech ukončených výpůjček
+        // Načtení historie všech ukončených výpůjček (pro přehledy)
         public List<Loan> GetLoanHistory()
         {
             using (var context = new LibraryContext())
             {
-                // Výběr záznamů, které již byly vráceny (ReturnDate není null)
-                // Seřazeno sestupně podle data vrácení (nejnovější nahoře)
                 return context.Loans
-                    .Where(l => l.ReturnDate != null)
+                    .Where(l => l.ReturnDate != null) // Pouze ty, co už jsou vráceny
                     .Include(l => l.Reader)
                     .Include(l => l.Book)
-                    .OrderByDescending(l => l.ReturnDate)
+                    .OrderByDescending(l => l.ReturnDate) // Nejnovější vrácené nahoře
                     .ToList();
+            }
+        }
+
+        // Pomocná metoda pro naplnění historie testovacími daty (bez duplicit)
+        public void SeedLoansAndHistory()
+        {
+            using (var context = new Library.Data.LibraryContext())
+            {
+                var book = context.Books.FirstOrDefault();
+                var reader = context.Readers.FirstOrDefault();
+
+                if (book != null && reader != null)
+                {
+                    // Používáme fixní datum k identifikaci testovacího záznamu
+                    DateTime staticDate = new DateTime(2024, 1, 1);
+
+                    // Kontrola, zda už v systému tento testovací záznam existuje
+                    bool exists = context.Loans.Any(l => l.BookId == book.Id && l.ReaderId == reader.Id && l.LoanDate == staticDate);
+
+                    if (!exists)
+                    {
+                        context.Loans.Add(new Library.Data.Entities.Loan
+                        {
+                            BookId = book.Id,
+                            ReaderId = reader.Id,
+                            LoanDate = staticDate,
+                            DueDate = staticDate.AddDays(31),
+                            ReturnDate = staticDate.AddDays(10), // Simulace úspěšného vrácení
+                            FineAmount = 0
+                        });
+                        context.SaveChanges();
+                    }
+                }
             }
         }
     }

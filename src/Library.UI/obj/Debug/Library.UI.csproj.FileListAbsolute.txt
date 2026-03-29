@@ -40,3 +40,5 @@ C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.
 C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.csproj.Up2Date
 C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.exe
 C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.pdb
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.AddBookForm.resources
+C:\Informacni_system_verejne_knihovny_Hanak\src\Library.UI\obj\Debug\Library.UI.AddReaderForm.resources

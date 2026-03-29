@@ -9,57 +9,56 @@ namespace Library.Business
 {
     public class BookService
     {
-        // Načtení všech aktivních knih z databáze
+        // Načtení všech knih, které nejsou smazané (v Bazaru)
         public List<Book> GetAllBooks()
         {
             using (var context = new LibraryContext())
             {
+                // .Include zajišťuje tzv. Eager Loading - načte data z propojených tabulek najednou
                 return context.Books
-                    .Include(b => b.Author)   // Propojení s tabulkou autorů (Eager Loading)
-                    .Include(b => b.Genre)    // Propojení s tabulkou žánrů
-                    .Include(b => b.Publisher) // Propojení s tabulkou vydavatelů
-                    .Where(b => b.IsDeleted == false) // Filtrování: pouze knihy, které nejsou v Bazaru
+                    .Include(b => b.Author)
+                    .Include(b => b.Genre)
+                    .Include(b => b.Publisher)
+                    .Where(b => b.IsDeleted == false)
                     .ToList();
             }
         }
 
-        // Vyhledávání v knihách podle textového řetězce
+        // Vyhledávání napříč všemi parametry knihy (case-insensitive)
         public List<Book> SearchBooks(string query)
         {
             using (var context = new LibraryContext())
             {
-                query = query.ToLower(); // Převod na malá písmena pro case-insensitive hledání
+                query = query.ToLower();
                 return context.Books
                     .Include(b => b.Author)
                     .Include(b => b.Genre)
                     .Include(b => b.Publisher)
                     .Where(b => b.IsDeleted == false && (
-                        b.Title.ToLower().Contains(query) || // Hledání v názvu
-                        b.Author.LastName.ToLower().Contains(query) || // Hledání v příjmení autora
-                        b.Genre.Name.ToLower().Contains(query) || // Hledání v názvu žánru
-                        b.Publisher.Name.ToLower().Contains(query) || // Hledání ve vydavateli
-                        b.Year.ToString().Contains(query) // Hledání v roce vydání
+                        b.Title.ToLower().Contains(query) ||
+                        b.Author.LastName.ToLower().Contains(query) ||
+                        b.Genre.Name.ToLower().Contains(query) ||
+                        b.Publisher.Name.ToLower().Contains(query) ||
+                        b.Year.ToString().Contains(query)
                     )).ToList();
             }
         }
 
-        // Trvalé odstranění knihy z databáze podle ID
+        // Fyzické smazání knihy z databáze
         public void DeleteBook(int bookId)
         {
             using (var context = new LibraryContext())
             {
-                var book = context.Books.Find(bookId); // Vyhledání konkrétního záznamu
+                var book = context.Books.Find(bookId);
                 if (book != null)
                 {
-                    context.Books.Remove(book); // Příkaz ke smazání
-                    context.SaveChanges(); // Potvrzení změn v SQL databázi
+                    context.Books.Remove(book);
+                    context.SaveChanges(); // Propsání změn do SQL serveru
                 }
             }
         }
 
-        // --- FUNKCE PRO BAZAR A VYŘAZOVÁNÍ (POŽADAVEK FÁZE 2) ---
-
-        // Logické vyřazení knihy a nastavení prodejní ceny
+        // Přesun knihy do bazaru (tzv. Soft Delete)
         public void DiscardBook(int bookId, decimal salePrice)
         {
             using (var context = new LibraryContext())
@@ -67,19 +66,19 @@ namespace Library.Business
                 var book = context.Books.Find(bookId);
                 if (book != null)
                 {
-                    // Kontrola integrity: nelze vyřadit knihu, která má aktivní výpůjčku
+                    // Validace: Nelze vyřadit knihu, kterou má někdo zrovna doma
                     bool isLent = context.Loans.Any(l => l.BookId == bookId && l.ReturnDate == null);
                     if (isLent)
                         throw new Exception("Nelze vyřadit knihu, která je aktuálně vypůjčená!");
 
-                    book.IsDeleted = true; // "Soft delete" - kniha zůstává v DB, ale je označena jako vyřazená
-                    book.SalePrice = salePrice; // Nastavení snížené ceny pro odkup čtenářem
+                    book.IsDeleted = true; // Kniha v DB zůstane, ale změní se její stav
+                    book.SalePrice = salePrice; // Nastavení ceny pro výprodej
                     context.SaveChanges();
                 }
             }
         }
 
-        // Načtení seznamu knih určených výhradně pro záložku Bazar
+        // Načtení pouze knih označených jako vyřazené
         public List<Book> GetDiscardedBooks()
         {
             using (var context = new LibraryContext())
@@ -88,12 +87,12 @@ namespace Library.Business
                     .Include(b => b.Author)
                     .Include(b => b.Genre)
                     .Include(b => b.Publisher)
-                    .Where(b => b.IsDeleted == true) // Filtrování: pouze vyřazené kusy
+                    .Where(b => b.IsDeleted == true)
                     .ToList();
             }
         }
 
-        // Realizace prodeje vyřazené knihy
+        // Odstranění knihy po jejím úspěšném prodeji v Bazaru
         public void BuyDiscardedBook(int bookId)
         {
             using (var context = new LibraryContext())
@@ -101,19 +100,17 @@ namespace Library.Business
                 var book = context.Books.Find(bookId);
                 if (book != null && book.IsDeleted)
                 {
-                    // Po prodeji se záznam z databáze odstraní definitivně
                     context.Books.Remove(book);
                     context.SaveChanges();
                 }
                 else
                 {
-                    throw new Exception("Tuto knihu nelze zakoupit (není vyřazená).");
+                    throw new Exception("Tuto knihu nelze zakoupit (není v bazaru).");
                 }
             }
         }
 
-        // --- POMOCNÉ METODY PRO UI (PLNĚNÍ COMBOBOXŮ) ---
-
+        // Pomocné metody pro naplnění ComboBoxů (výběrových polí) v UI
         public List<Author> GetAuthors()
         {
             using (var context = new LibraryContext()) { return context.Authors.ToList(); }
@@ -129,13 +126,12 @@ namespace Library.Business
             using (var context = new LibraryContext()) { return context.Publishers.ToList(); }
         }
 
-        // --- INTELIGENTNÍ PŘIDÁVÁNÍ KNIH (SMART ADD) ---
-        // Metoda automaticky spravuje vazby mezi entitami, aby nedocházelo k duplicitám
+        // Inteligentní přidání knihy s kontrolou existujících autorů/žánrů
         public void AddBookSmart(string title, int year, string description, string authorName, string genreName, string publisherName, string mediaType = "Kniha")
         {
             using (var context = new LibraryContext())
             {
-                // Parsování jména: rozdělení celého jména na jméno a příjmení podle první mezery
+                // Rozdělení jména autora pro vyhledávání (např. "Karel Čapek")
                 string firstName = "";
                 string lastName = authorName;
 
@@ -146,7 +142,7 @@ namespace Library.Business
                     lastName = parts[1].Trim();
                 }
 
-                // Kontrola existence autora: pokud v DB není, vytvoří se nový
+                // Kontrola, zda autor už v DB není - pokud ne, založíme ho
                 var author = context.Authors.FirstOrDefault(a => a.FirstName == firstName && a.LastName == lastName);
                 if (author == null)
                 {
@@ -154,7 +150,7 @@ namespace Library.Business
                     context.Authors.Add(author);
                 }
 
-                // Kontrola existence žánru: zabraňuje duplicitním názvům žánrů
+                // Stejná kontrola pro žánr (zabraňuje duplicitám)
                 var genre = context.Genres.FirstOrDefault(g => g.Name == genreName);
                 if (genre == null)
                 {
@@ -162,7 +158,7 @@ namespace Library.Business
                     context.Genres.Add(genre);
                 }
 
-                // Kontrola existence vydavatele
+                // Kontrola pro vydavatele
                 var publisher = context.Publishers.FirstOrDefault(p => p.Name == publisherName);
                 if (publisher == null)
                 {
@@ -170,7 +166,7 @@ namespace Library.Business
                     context.Publishers.Add(publisher);
                 }
 
-                // Sestavení finálního objektu knihy s vazbami na zkontrolované entity
+                // Vytvoření nové knihy s vazbami na entity
                 var book = new Book
                 {
                     Title = title,
@@ -184,7 +180,45 @@ namespace Library.Business
                 };
 
                 context.Books.Add(book);
-                context.SaveChanges(); // Transakční uložení všech změn naráz
+                context.SaveChanges(); // Uložení knihy i případných nových entit naráz
+            }
+        }
+
+        // Automatické naplnění (Seeding) databáze ukázkovými daty
+        public void SeedBooks()
+        {
+            using (var context = new Library.Data.LibraryContext())
+            {
+                var titles = new[] { "Zaklínač I. - Poslední přání", "Zaklínač II. - Meč osudu" };
+
+                // Příprava entit, které budeme ke knihám připojovat
+                var author = context.Authors.FirstOrDefault(a => a.LastName == "Sapkowski")
+                             ?? new Library.Data.Entities.Author { FirstName = "Andrzej", LastName = "Sapkowski" };
+
+                var genre = context.Genres.FirstOrDefault(g => g.Name == "Fantasy")
+                            ?? new Library.Data.Entities.Genre { Name = "Fantasy" };
+
+                var pub = context.Publishers.FirstOrDefault(p => p.Name == "Leonardo")
+                          ?? new Library.Data.Entities.Publisher { Name = "Leonardo" };
+
+                // Přidání knih pouze v případě, že v DB ještě nejsou
+                foreach (var title in titles)
+                {
+                    if (!context.Books.Any(b => b.Title == title))
+                    {
+                        context.Books.Add(new Library.Data.Entities.Book
+                        {
+                            Title = title,
+                            Year = 1993,
+                            Author = author,
+                            Genre = genre,
+                            Publisher = pub,
+                            IsInterlibrary = false,
+                            Description = "Testovací záznam."
+                        });
+                    }
+                }
+                context.SaveChanges();
             }
         }
     }

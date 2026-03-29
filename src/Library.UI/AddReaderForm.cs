@@ -14,48 +14,51 @@ namespace Library.UI
 {
     public partial class AddReaderForm : Form
     {
-        private ReaderService _service; // Odkaz na logiku pro práci se čtenáři
+        private ReaderService _service; // Odkaz na logickou vrstvu pro správu čtenářů
 
         public AddReaderForm()
         {
             InitializeComponent();
             _service = new ReaderService();
 
-            // Nastavení výchozích hodnot v roletkách (aby políčka nebyla prázdná)
-            comboGender.SelectedIndex = 0;
-            comboEducation.SelectedIndex = 0;
+            // NASTAVENÍ UX: Předvolíme první položky v roletkách (ComboBoxech)
+            // Tím zajistíme, že uživatel nemusí nic vybírat, pokud mu vyhovuje výchozí volba
+            if (comboGender.Items.Count > 0) comboGender.SelectedIndex = 0;
+            if (comboEducation.Items.Count > 0) comboEducation.SelectedIndex = 0;
         }
 
-        // Tlačítko pro uložení nového čtenáře
+        // Metoda obsluhující tlačítko pro uložení dat
         private void btnSave_Click(object sender, EventArgs e)
         {
             try
             {
-                // Základní kontrola: Jméno a příjmení nesmí zůstat prázdné
+                // VALIDACE: Kontrola, zda jsou vyplněna klíčová pole (Jméno a Příjmení)
+                // Používáme IsNullOrWhiteSpace pro zachycení prázdných řetězců i pouhých mezer
                 if (string.IsNullOrWhiteSpace(txtFirstName.Text) || string.IsNullOrWhiteSpace(txtLastName.Text))
                 {
-                    MessageBox.Show("Jméno a příjmení jsou povinné!");
+                    MessageBox.Show("Jméno a příjmení jsou povinné údaje!", "Chyba validace", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                // Volání služby, která vytvoří záznam v databázi
+                // VOLÁNÍ BUSINESS VRSTVY: Předáváme sesbíraná data ze všech prvků formuláře
                 _service.AddReader(
-                    txtFirstName.Text,   // Text z políčka Jméno
-                    txtLastName.Text,    // Text z políčka Příjmení
-                    txtEmail.Text,       // Text z políčka E-mail
-                    dateBirth.Value,     // Vybrané datum z kalendáře
-                    comboGender.Text,    // Vybrané pohlaví z roletky
-                    comboEducation.Text  // Vybrané vzdělání z roletky
+                    txtFirstName.Text.Trim(), // .Trim() odstraní nechtěné mezery na začátku/konci
+                    txtLastName.Text.Trim(),
+                    txtEmail.Text.Trim(),
+                    dateBirth.Value,          // Hodnota z kalendáře (DateTimePicker)
+                    comboGender.Text,         // Vybraný text z roletky pohlaví
+                    comboEducation.Text       // Vybraný text z roletky vzdělání
                 );
 
-                // Informace o úspěchu a zavření okna
-                MessageBox.Show("Čtenář úspěšně zaregistrován!");
-                this.Close();
+                // Zpětná vazba uživateli
+                MessageBox.Show("Registrace čtenáře proběhla úspěšně.", "Hotovo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                this.Close(); // Automatické zavření okna po úspěšné operaci
             }
             catch (Exception ex)
             {
-                // Pokud se něco pokazí (třeba chyba v DB), vypíše se hláška
-                MessageBox.Show("Chyba: " + ex.Message);
+                // Zachycení chyb (např. unikátní e-mail, pokud by to databáze vyžadovala)
+                MessageBox.Show("Nastala chyba při registraci: " + ex.Message, "Chyba systému", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
